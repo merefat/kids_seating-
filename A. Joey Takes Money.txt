@@ -1,0 +1,36 @@
+///              B I S M I L L A H I R  R A H M A N I R  R A H I M
+// Code By Arif Ahmed Refat
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+#define pb   push_back
+void solve ()
+{
+   ll n;
+   cin >> n;
+   ll a[n];
+   ll ans = 1;
+   for (int i=0; i<n; i++)
+   {
+       cin >> a[i];
+       ans*=a[i];
+       
+   }
+   ans+=n-1;
+   cout << ans *2022 << endl;
+ 
+}
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+ 
+ int t;
+ cin>> t;
+ while (t--)
+ {
+     solve ();
+ 
+ }
+    
+}
